@@ -1,70 +1,83 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Kumbh Sans;
 }
 
+body {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: centre;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  margin: 100px;
+  /* height: 80vh; */
+  width: 100vw;
+  /* background-color: bisque; */
+  /* margin: 30px; */
+}
+.main {
+  display: flex;
+  flex-direction: row;
+ 
+
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  /* gap: 20px; */
+  
+}
+.right {
+  display: flex;
+  align-self: center;
+  /* justify-content: flex-end; */
+}
+.imgs{
+  width: 50%;
+  /* display: flex; */
+}
+.catalogue >img{
+      width: 71px;
+      gap: 10px;
+      border-radius: 10px;
+}
+
+.main>.imgs>.big-img{
+    width: 40px;
+    border-radius: 10px;
+}
 .nav{
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px;
-    gap: 20px;
-    font-weight: 400;
-    /* font-family: kumb; */
+  border-bottom: solid 2px gray;
+}
+.description{
+  padding: 15px;
+}
+.description>h3{
+  color: orange;
+  /* width: 65%; */
+}
+.sect>h4{
+  color: orange;
+}
+.sect> div{
+  display: flex;
+}
+.sect> div>h4{
+  margin-left: 10px;
 }
 
-.body{
-    display: flex;
-    background-color: aliceblue;
-    /* justify-content: center; */
-    /* align-items: flex-end; */
-    /* margin-top: 60px; */
-    padding: 20px;
-    width: 1440px;
-    /* flex-direction: column; */
-}
 
-.catalogue{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    row-gap: 20px;
-    gap: 20px;
-    margin: 20px;
-    padding: 30px;
-    height: 100px;
-    width: 100px;
-}
-
-.images{
-    display: flex;
-    margin: 40px;
-    padding: 30px;
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-between;
-}
-
-.sneakers{
-    display: flex;
-    justify-content: start;
-    margin-top: 5px;
-}
-
-.attribution{
-    font-size: 11px; text-align: center; 
-    color: hsl(228, 45%, 44%); 
-}
-
-.section{
-    display: self;
-    justify-content: space-between;
-    align-items: end;
-    flex-direction: row;
-}
-
-.section{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 20;
-}
+  
+  /* <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> --> */ 

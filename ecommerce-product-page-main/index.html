@@ -6,60 +6,58 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <div class="main">
-    <div class="nav">
-      <h2>sneakers</h2>
-      <h4>Collections</h4>
-      <h4>Men</h4>
-      <h4>Women</h4>
-      <h4>About</h4>
-      <h4>Contact</h4>
+  <div class="container">
+    <div class="content">
+      <div class="nav"> 
+        <div class="left">
+          <img src="images/logo.svg" alt="logo">
+          <link>Collections</link>
+          <link>Men</link>
+          <link>Women</link>
+          <link>About</link>
+          <link>Contact</link>
+        </div>
+      <div class="right">
+        <img src="images/icon-cart.svg" alt="cart" width="20px">
+        <img src="images/image-avatar.png" width="30px">
+      </div>
     </div>
-    <div class="images">
-      <img src="images/image-product-1.jpg">
+    <div class="main">
+      <div class="imgs">
+        <div class="big-img">
+          <img style = "border-radius: 10px;" src="images/image-product-1.jpg" width="300px">
+        </div> 
+      <div class="catalogue">
+        <img src="images/image-product-1-thumbnail.jpg">
+        <img src="images/image-product-3-thumbnail.jpg">
+        <img src="images/image-product-3-thumbnail.jpg">
+        <img src="images/image-product-4-thumbnail.jpg">
+       </div>
     </div>
-    <div class="catalogue">
-      <img src="images/image-product-1-thumbnail.jpg">
-      <img src="images/image-product-3-thumbnail.jpg">
-      <img src="images/image-product-3-thumbnail.jpg">
-      <img src="images/image-product-4-thumbnail.jpg">
-    </div>
-  </div>
-  <div class="section">
-      <div class="division">
+      <div class="description">
         <h3>SNEAKER COMPANY</h3>
         <h1>Fall Limited Edition Sneakers</h1>
-        <p>These low-profile sneakers are your perfect casual wear<br> companion. Featuring a durable rubber outer sole, they’ll<br> withstand everything the weather can offer.</p>
+        <p>These low-profile sneakers are your perfect casual<br> wear companion. Featuring a durable rubber outer<br> sole, they’llwithstand everything the weather can offer.</p>
+        <div class="sect">
+          <div>
+           <h3>$125.00</h3>
+           <div><h4>50%</h4></div>
+          </div>
+          <div class="price2">
+            <div class="delete"><del><h5> $250.00</h5></del></div>
+          </div>
+          <input type="submit" value="Add to cart">
+        </div>
+        </div>
+
+     </div>
+    </div>
   </div>
-
-  
-
-  <!-- 
-  
-
-  
-
-  
-
-  
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 </html>
